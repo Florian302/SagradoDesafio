@@ -51,5 +51,10 @@ namespace APP_Cataquese
         {
 
         }
+
+        private void FrmP1Noe_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

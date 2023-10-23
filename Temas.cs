@@ -27,5 +27,11 @@ namespace APP_Cataquese
         {
             this.Close();
         }
+
+        private void BtnNascimento_Click(object sender, EventArgs e)
+        {
+            FrmP1Jesus p1jesus = new FrmP1Jesus();
+            p1jesus.ShowDialog();
+        }
     }
 }

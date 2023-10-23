@@ -1,6 +1,6 @@
 ﻿namespace APP_Cataquese
 {
-    partial class FrmP1Noe
+    partial class FrmP1Jesus
     {
         /// <summary>
         /// Required designer variable.
@@ -28,29 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblPergunta1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.rbtnCerta = new System.Windows.Forms.RadioButton();
-            this.btnProx = new System.Windows.Forms.Button();
+            this.LblPergunta1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnProx = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // LblPergunta1
-            // 
-            this.LblPergunta1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblPergunta1.AutoSize = true;
-            this.LblPergunta1.BackColor = System.Drawing.Color.Transparent;
-            this.LblPergunta1.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPergunta1.ForeColor = System.Drawing.Color.Black;
-            this.LblPergunta1.Location = new System.Drawing.Point(228, 21);
-            this.LblPergunta1.Name = "LblPergunta1";
-            this.LblPergunta1.Size = new System.Drawing.Size(188, 45);
-            this.LblPergunta1.TabIndex = 0;
-            this.LblPergunta1.Text = "Pergunta 1";
             // 
             // groupBox1
             // 
@@ -61,10 +48,10 @@
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.rbtnCerta);
             this.groupBox1.Font = new System.Drawing.Font("Comic Sans MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(53, 99);
+            this.groupBox1.Location = new System.Drawing.Point(53, 95);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(619, 321);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Quantos dias duraram o diluvio?";
             // 
@@ -115,50 +102,58 @@
             this.rbtnCerta.TabStop = true;
             this.rbtnCerta.Text = "a) 40 dias e 40 noites";
             this.rbtnCerta.UseVisualStyleBackColor = true;
-            this.rbtnCerta.CheckedChanged += new System.EventHandler(this.rbtnCerta_CheckedChanged);
+            // 
+            // LblPergunta1
+            // 
+            this.LblPergunta1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.LblPergunta1.AutoSize = true;
+            this.LblPergunta1.BackColor = System.Drawing.Color.Transparent;
+            this.LblPergunta1.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPergunta1.ForeColor = System.Drawing.Color.Black;
+            this.LblPergunta1.Location = new System.Drawing.Point(228, 17);
+            this.LblPergunta1.Name = "LblPergunta1";
+            this.LblPergunta1.Size = new System.Drawing.Size(188, 45);
+            this.LblPergunta1.TabIndex = 4;
+            this.LblPergunta1.Text = "Pergunta 1";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(12, 17);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(86, 47);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Inicio";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // btnProx
             // 
             this.btnProx.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnProx.BackColor = System.Drawing.Color.White;
             this.btnProx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProx.Location = new System.Drawing.Point(570, 399);
+            this.btnProx.Location = new System.Drawing.Point(570, 395);
             this.btnProx.Name = "btnProx";
             this.btnProx.Size = new System.Drawing.Size(138, 69);
-            this.btnProx.TabIndex = 0;
+            this.btnProx.TabIndex = 5;
             this.btnProx.Text = "Próximo";
             this.btnProx.UseVisualStyleBackColor = false;
-            this.btnProx.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // FrmP1Jesus
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 21);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 47);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Inicio";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // FrmP1Noe
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(720, 480);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnProx);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.LblPergunta1);
-            this.DoubleBuffered = true;
-            this.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnProx);
+            this.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmP1Noe";
-            this.Text = "FrmP1Noe";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.FrmP1Noe_Load);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Name = "FrmP1Jesus";
+            this.Text = "FrmP1Jesus";
+            this.Load += new System.EventHandler(this.FrmP1Jesus_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -168,13 +163,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label LblPergunta1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton rbtnCerta;
-        private System.Windows.Forms.Button btnProx;
+        private System.Windows.Forms.Label LblPergunta1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnProx;
     }
 }

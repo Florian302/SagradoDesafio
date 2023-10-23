@@ -70,11 +70,23 @@
     <Compile Include="FrmP10Noe.Designer.cs">
       <DependentUpon>FrmP10Noe.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmP1Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP1Jesus.Designer.cs">
+      <DependentUpon>FrmP1Jesus.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmP1Noe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmP1Noe.Designer.cs">
       <DependentUpon>FrmP1Noe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP2Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP2Jesus.Designer.cs">
+      <DependentUpon>FrmP2Jesus.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmP2Noe.cs">
       <SubType>Form</SubType>
@@ -148,8 +160,14 @@
     <EmbeddedResource Include="FrmP10Noe.resx">
       <DependentUpon>FrmP10Noe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmP1Jesus.resx">
+      <DependentUpon>FrmP1Jesus.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmP1Noe.resx">
       <DependentUpon>FrmP1Noe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP2Jesus.resx">
+      <DependentUpon>FrmP2Jesus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmP2Noe.resx">
       <DependentUpon>FrmP2Noe.cs</DependentUpon>
