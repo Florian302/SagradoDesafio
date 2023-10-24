@@ -44,7 +44,7 @@
             this.BtnArca.BackColor = System.Drawing.Color.White;
             this.BtnArca.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnArca.Location = new System.Drawing.Point(94, 100);
-            this.BtnArca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnArca.Margin = new System.Windows.Forms.Padding(2);
             this.BtnArca.Name = "BtnArca";
             this.BtnArca.Size = new System.Drawing.Size(133, 68);
             this.BtnArca.TabIndex = 0;
@@ -72,12 +72,13 @@
             this.BtnDaviGolias.BackColor = System.Drawing.Color.White;
             this.BtnDaviGolias.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDaviGolias.Location = new System.Drawing.Point(94, 185);
-            this.BtnDaviGolias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnDaviGolias.Margin = new System.Windows.Forms.Padding(2);
             this.BtnDaviGolias.Name = "BtnDaviGolias";
             this.BtnDaviGolias.Size = new System.Drawing.Size(133, 68);
             this.BtnDaviGolias.TabIndex = 2;
             this.BtnDaviGolias.Text = "Davi e Golias";
             this.BtnDaviGolias.UseVisualStyleBackColor = false;
+            this.BtnDaviGolias.Click += new System.EventHandler(this.BtnDaviGolias_Click);
             // 
             // BtnMarVermelho
             // 
@@ -85,12 +86,13 @@
             this.BtnMarVermelho.BackColor = System.Drawing.Color.White;
             this.BtnMarVermelho.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMarVermelho.Location = new System.Drawing.Point(94, 280);
-            this.BtnMarVermelho.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnMarVermelho.Margin = new System.Windows.Forms.Padding(2);
             this.BtnMarVermelho.Name = "BtnMarVermelho";
             this.BtnMarVermelho.Size = new System.Drawing.Size(133, 68);
             this.BtnMarVermelho.TabIndex = 3;
             this.BtnMarVermelho.Text = "Mar Vermelho";
             this.BtnMarVermelho.UseVisualStyleBackColor = false;
+            this.BtnMarVermelho.Click += new System.EventHandler(this.BtnMarVermelho_Click);
             // 
             // BtnNascimento
             // 
@@ -98,7 +100,7 @@
             this.BtnNascimento.BackColor = System.Drawing.Color.White;
             this.BtnNascimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNascimento.Location = new System.Drawing.Point(337, 100);
-            this.BtnNascimento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNascimento.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNascimento.Name = "BtnNascimento";
             this.BtnNascimento.Size = new System.Drawing.Size(133, 68);
             this.BtnNascimento.TabIndex = 4;
@@ -112,12 +114,13 @@
             this.BtnPecado.BackColor = System.Drawing.Color.White;
             this.BtnPecado.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPecado.Location = new System.Drawing.Point(337, 185);
-            this.BtnPecado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnPecado.Margin = new System.Windows.Forms.Padding(2);
             this.BtnPecado.Name = "BtnPecado";
             this.BtnPecado.Size = new System.Drawing.Size(133, 68);
             this.BtnPecado.TabIndex = 5;
             this.BtnPecado.Text = "Pecado e Salvação";
             this.BtnPecado.UseVisualStyleBackColor = false;
+            this.BtnPecado.Click += new System.EventHandler(this.BtnPecado_Click);
             // 
             // BtnAmorDeus
             // 
@@ -125,18 +128,19 @@
             this.BtnAmorDeus.BackColor = System.Drawing.Color.White;
             this.BtnAmorDeus.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAmorDeus.Location = new System.Drawing.Point(337, 280);
-            this.BtnAmorDeus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnAmorDeus.Margin = new System.Windows.Forms.Padding(2);
             this.BtnAmorDeus.Name = "BtnAmorDeus";
             this.BtnAmorDeus.Size = new System.Drawing.Size(133, 68);
             this.BtnAmorDeus.TabIndex = 6;
             this.BtnAmorDeus.Text = "Amor de Deus";
             this.BtnAmorDeus.UseVisualStyleBackColor = false;
+            this.BtnAmorDeus.Click += new System.EventHandler(this.BtnAmorDeus_Click);
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.Location = new System.Drawing.Point(250, 341);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(64, 39);
             this.button1.TabIndex = 7;
@@ -161,9 +165,9 @@
             this.Controls.Add(this.BtnArca);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Temas";
-            this.Text = "FrmP1";
+            this.Text = " ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();

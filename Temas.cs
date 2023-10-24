@@ -33,5 +33,29 @@ namespace APP_Cataquese
             FrmP1Jesus p1jesus = new FrmP1Jesus();
             p1jesus.ShowDialog();
         }
+
+        private void BtnDaviGolias_Click(object sender, EventArgs e)
+        {
+            FrmP1Davi p1davi = new FrmP1Davi();
+            p1davi.ShowDialog();
+        }
+
+        private void BtnPecado_Click(object sender, EventArgs e)
+        {
+            FrmP1Pecado p1Pecado = new FrmP1Pecado();
+            p1Pecado.ShowDialog();
+        }
+
+        private void BtnAmorDeus_Click(object sender, EventArgs e)
+        {
+            FrmP1Amor p1Amor = new FrmP1Amor();
+            p1Amor.ShowDialog();
+        }
+
+        private void BtnMarVermelho_Click(object sender, EventArgs e)
+        {
+            FrmP1Mar p1Mar = new FrmP1Mar();
+            p1Mar.ShowDialog();
+        }
     }
 }

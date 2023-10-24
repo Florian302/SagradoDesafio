@@ -21,5 +21,10 @@ namespace APP_Cataquese
         {
 
         }
+
+        private void btnProx_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

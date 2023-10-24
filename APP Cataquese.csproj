@@ -64,11 +64,53 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmP10Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP10Amor.Designer.cs">
+      <DependentUpon>FrmP10Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP10Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP10Davi.Designer.cs">
+      <DependentUpon>FrmP10Davi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP10Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP10Jesus.Designer.cs">
+      <DependentUpon>FrmP10Jesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP10Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP10Mar.Designer.cs">
+      <DependentUpon>FrmP10Mar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmP10Noe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmP10Noe.Designer.cs">
       <DependentUpon>FrmP10Noe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP10Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP10Pecado.Designer.cs">
+      <DependentUpon>FrmP10Pecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP1Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP1Amor.Designer.cs">
+      <DependentUpon>FrmP1Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP1Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP1Davi.Designer.cs">
+      <DependentUpon>FrmP1Davi.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmP1Jesus.cs">
       <SubType>Form</SubType>
@@ -76,11 +118,35 @@
     <Compile Include="FrmP1Jesus.Designer.cs">
       <DependentUpon>FrmP1Jesus.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmP1Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP1Mar.Designer.cs">
+      <DependentUpon>FrmP1Mar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmP1Noe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmP1Noe.Designer.cs">
       <DependentUpon>FrmP1Noe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP1Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP1Pecado.Designer.cs">
+      <DependentUpon>FrmP1Pecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP2Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP2Amor.Designer.cs">
+      <DependentUpon>FrmP2Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP2Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP2Davi.Designer.cs">
+      <DependentUpon>FrmP2Davi.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmP2Jesus.cs">
       <SubType>Form</SubType>
@@ -88,11 +154,47 @@
     <Compile Include="FrmP2Jesus.Designer.cs">
       <DependentUpon>FrmP2Jesus.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmP2Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP2Mar.Designer.cs">
+      <DependentUpon>FrmP2Mar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmP2Noe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmP2Noe.Designer.cs">
       <DependentUpon>FrmP2Noe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP2Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP2Pecado.Designer.cs">
+      <DependentUpon>FrmP2Pecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP3Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP3Amor.Designer.cs">
+      <DependentUpon>FrmP3Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP3Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP3Davi.Designer.cs">
+      <DependentUpon>FrmP3Davi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP3Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP3Jesus.Designer.cs">
+      <DependentUpon>FrmP3Jesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP3Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP3Mar.Designer.cs">
+      <DependentUpon>FrmP3Mar.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmP3Noe.cs">
       <SubType>Form</SubType>
@@ -100,11 +202,47 @@
     <Compile Include="FrmP3Noe.Designer.cs">
       <DependentUpon>FrmP3Noe.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmP3Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP3Pecado.Designer.cs">
+      <DependentUpon>FrmP3Pecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP4Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP4Amor.Designer.cs">
+      <DependentUpon>FrmP4Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP4Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP4Davi.Designer.cs">
+      <DependentUpon>FrmP4Davi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP4Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP4Jesus.Designer.cs">
+      <DependentUpon>FrmP4Jesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP4Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP4Mar.Designer.cs">
+      <DependentUpon>FrmP4Mar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmP4Noe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmP4Noe.Designer.cs">
       <DependentUpon>FrmP4Noe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP4Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP4Pecado.Designer.cs">
+      <DependentUpon>FrmP4Pecado.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmP5.cs">
       <SubType>Form</SubType>
@@ -112,11 +250,65 @@
     <Compile Include="FrmP5.Designer.cs">
       <DependentUpon>FrmP5.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmP5Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP5Amor.Designer.cs">
+      <DependentUpon>FrmP5Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP5Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP5Davi.Designer.cs">
+      <DependentUpon>FrmP5Davi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP5Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP5Jesus.Designer.cs">
+      <DependentUpon>FrmP5Jesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP5Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP5Mar.Designer.cs">
+      <DependentUpon>FrmP5Mar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmP5Noe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmP5Noe.Designer.cs">
       <DependentUpon>FrmP5Noe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP5Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP5Pecado.Designer.cs">
+      <DependentUpon>FrmP5Pecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP6Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP6Amor.Designer.cs">
+      <DependentUpon>FrmP6Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP6Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP6Davi.Designer.cs">
+      <DependentUpon>FrmP6Davi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP6Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP6Jesus.Designer.cs">
+      <DependentUpon>FrmP6Jesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP6Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP6Mar.Designer.cs">
+      <DependentUpon>FrmP6Mar.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmP6Noe.cs">
       <SubType>Form</SubType>
@@ -124,11 +316,71 @@
     <Compile Include="FrmP6Noe.Designer.cs">
       <DependentUpon>FrmP6Noe.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmP6Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP6Pecado.Designer.cs">
+      <DependentUpon>FrmP6Pecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP7Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP7Amor.Designer.cs">
+      <DependentUpon>FrmP7Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP7Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP7Davi.Designer.cs">
+      <DependentUpon>FrmP7Davi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP7Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP7Jesus.Designer.cs">
+      <DependentUpon>FrmP7Jesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP7Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP7Mar.Designer.cs">
+      <DependentUpon>FrmP7Mar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmP7Noe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmP7Noe.Designer.cs">
       <DependentUpon>FrmP7Noe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP7Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP7Pecado.Designer.cs">
+      <DependentUpon>FrmP7Pecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP8Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP8Amor.Designer.cs">
+      <DependentUpon>FrmP8Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP8Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP8Davi.Designer.cs">
+      <DependentUpon>FrmP8Davi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP8Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP8Jesus.Designer.cs">
+      <DependentUpon>FrmP8Jesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP8Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP8Mar.Designer.cs">
+      <DependentUpon>FrmP8Mar.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmP8Noe.cs">
       <SubType>Form</SubType>
@@ -136,11 +388,47 @@
     <Compile Include="FrmP8Noe.Designer.cs">
       <DependentUpon>FrmP8Noe.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmP8Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP8Pecado.Designer.cs">
+      <DependentUpon>FrmP8Pecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP9Amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP9Amor.Designer.cs">
+      <DependentUpon>FrmP9Amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP9Davi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP9Davi.Designer.cs">
+      <DependentUpon>FrmP9Davi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP9Jesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP9Jesus.Designer.cs">
+      <DependentUpon>FrmP9Jesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP9Mar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP9Mar.Designer.cs">
+      <DependentUpon>FrmP9Mar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmP9Noe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmP9Noe.Designer.cs">
       <DependentUpon>FrmP9Noe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmP9Pecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmP9Pecado.Designer.cs">
+      <DependentUpon>FrmP9Pecado.cs</DependentUpon>
     </Compile>
     <Compile Include="Temas.cs">
       <SubType>Form</SubType>
@@ -157,41 +445,185 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmP10Amor.resx">
+      <DependentUpon>FrmP10Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP10Davi.resx">
+      <DependentUpon>FrmP10Davi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP10Jesus.resx">
+      <DependentUpon>FrmP10Jesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP10Mar.resx">
+      <DependentUpon>FrmP10Mar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmP10Noe.resx">
       <DependentUpon>FrmP10Noe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP10Pecado.resx">
+      <DependentUpon>FrmP10Pecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP1Amor.resx">
+      <DependentUpon>FrmP1Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP1Davi.resx">
+      <DependentUpon>FrmP1Davi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmP1Jesus.resx">
       <DependentUpon>FrmP1Jesus.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmP1Mar.resx">
+      <DependentUpon>FrmP1Mar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmP1Noe.resx">
       <DependentUpon>FrmP1Noe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP1Pecado.resx">
+      <DependentUpon>FrmP1Pecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP2Amor.resx">
+      <DependentUpon>FrmP2Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP2Davi.resx">
+      <DependentUpon>FrmP2Davi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmP2Jesus.resx">
       <DependentUpon>FrmP2Jesus.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmP2Mar.resx">
+      <DependentUpon>FrmP2Mar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmP2Noe.resx">
       <DependentUpon>FrmP2Noe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP2Pecado.resx">
+      <DependentUpon>FrmP2Pecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP3Amor.resx">
+      <DependentUpon>FrmP3Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP3Davi.resx">
+      <DependentUpon>FrmP3Davi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP3Jesus.resx">
+      <DependentUpon>FrmP3Jesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP3Mar.resx">
+      <DependentUpon>FrmP3Mar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmP3Noe.resx">
       <DependentUpon>FrmP3Noe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmP3Pecado.resx">
+      <DependentUpon>FrmP3Pecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP4Amor.resx">
+      <DependentUpon>FrmP4Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP4Davi.resx">
+      <DependentUpon>FrmP4Davi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP4Jesus.resx">
+      <DependentUpon>FrmP4Jesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP4Mar.resx">
+      <DependentUpon>FrmP4Mar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmP4Noe.resx">
       <DependentUpon>FrmP4Noe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP4Pecado.resx">
+      <DependentUpon>FrmP4Pecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP5Amor.resx">
+      <DependentUpon>FrmP5Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP5Davi.resx">
+      <DependentUpon>FrmP5Davi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP5Jesus.resx">
+      <DependentUpon>FrmP5Jesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP5Mar.resx">
+      <DependentUpon>FrmP5Mar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmP5Noe.resx">
       <DependentUpon>FrmP5Noe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmP5Pecado.resx">
+      <DependentUpon>FrmP5Pecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP6Amor.resx">
+      <DependentUpon>FrmP6Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP6Davi.resx">
+      <DependentUpon>FrmP6Davi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP6Jesus.resx">
+      <DependentUpon>FrmP6Jesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP6Mar.resx">
+      <DependentUpon>FrmP6Mar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmP6Noe.resx">
       <DependentUpon>FrmP6Noe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP6Pecado.resx">
+      <DependentUpon>FrmP6Pecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP7Amor.resx">
+      <DependentUpon>FrmP7Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP7Davi.resx">
+      <DependentUpon>FrmP7Davi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP7Jesus.resx">
+      <DependentUpon>FrmP7Jesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP7Mar.resx">
+      <DependentUpon>FrmP7Mar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmP7Noe.resx">
       <DependentUpon>FrmP7Noe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmP7Pecado.resx">
+      <DependentUpon>FrmP7Pecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP8Amor.resx">
+      <DependentUpon>FrmP8Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP8Davi.resx">
+      <DependentUpon>FrmP8Davi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP8Jesus.resx">
+      <DependentUpon>FrmP8Jesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP8Mar.resx">
+      <DependentUpon>FrmP8Mar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmP8Noe.resx">
       <DependentUpon>FrmP8Noe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmP8Pecado.resx">
+      <DependentUpon>FrmP8Pecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP9Amor.resx">
+      <DependentUpon>FrmP9Amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP9Davi.resx">
+      <DependentUpon>FrmP9Davi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP9Jesus.resx">
+      <DependentUpon>FrmP9Jesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP9Mar.resx">
+      <DependentUpon>FrmP9Mar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmP9Noe.resx">
       <DependentUpon>FrmP9Noe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmP9Pecado.resx">
+      <DependentUpon>FrmP9Pecado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Temas.resx">
       <DependentUpon>Temas.cs</DependentUpon>

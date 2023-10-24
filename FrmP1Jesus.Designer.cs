@@ -126,18 +126,20 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "Inicio";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnProx
             // 
             this.btnProx.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnProx.BackColor = System.Drawing.Color.White;
             this.btnProx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProx.Location = new System.Drawing.Point(570, 395);
+            this.btnProx.Location = new System.Drawing.Point(570, 399);
             this.btnProx.Name = "btnProx";
             this.btnProx.Size = new System.Drawing.Size(138, 69);
             this.btnProx.TabIndex = 5;
             this.btnProx.Text = "Próximo";
             this.btnProx.UseVisualStyleBackColor = false;
+            this.btnProx.Click += new System.EventHandler(this.btnProx_Click);
             // 
             // FrmP1Jesus
             // 
