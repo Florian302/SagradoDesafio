@@ -34,7 +34,7 @@ namespace APP_Cataquese
             }
             else if (radioButton2.Checked || radioButton3.Checked || radioButton4.Checked)
             {
-                MessageBox.Show("Resposta incorreta, correta era a alternativa A", "Quiz");
+                MessageBox.Show("Resposta incorreta, correta era a alternativa C", "Quiz");
                 VariaveisGlobais.Erros++;
                 FinalNoe finalnoe = new FinalNoe();
                 finalnoe.ShowDialog();
@@ -44,6 +44,11 @@ namespace APP_Cataquese
             {
                 MessageBox.Show("Escolha uma alternativa");
             }
+        }
+
+        private void FrmP10Noe_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

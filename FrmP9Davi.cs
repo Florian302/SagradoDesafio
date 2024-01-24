@@ -16,5 +16,34 @@ namespace APP_Cataquese
         {
             InitializeComponent();
         }
+
+        private void btnProx_Click(object sender, EventArgs e)
+        {
+            if (rbtnCerta.Checked == true)
+            {
+                MessageBox.Show("Resposta correta", "Quiz");
+                VariaveisGlobais.Acertos++;
+                FrmP10Davi p10davi = new FrmP10Davi();
+                p10davi.ShowDialog();
+                this.Dispose();
+            }
+            else if (radioButton2.Checked || radioButton3.Checked || radioButton4.Checked)
+            {
+                MessageBox.Show("Resposta incorreta, correta era a alternativa C", "Quiz");
+                VariaveisGlobais.Erros++;
+                FrmP10Davi p10davi = new FrmP10Davi();
+                p10davi.ShowDialog();
+                this.Dispose();
+            }
+            else
+            {
+                MessageBox.Show("Escolha uma alternativa");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

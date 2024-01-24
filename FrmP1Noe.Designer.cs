@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmP1Noe));
             this.LblPergunta1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
@@ -44,11 +45,11 @@
             this.LblPergunta1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.LblPergunta1.AutoSize = true;
             this.LblPergunta1.BackColor = System.Drawing.Color.Transparent;
-            this.LblPergunta1.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPergunta1.Font = new System.Drawing.Font("Comic Sans MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPergunta1.ForeColor = System.Drawing.Color.Black;
-            this.LblPergunta1.Location = new System.Drawing.Point(228, 21);
+            this.LblPergunta1.Location = new System.Drawing.Point(441, -5);
             this.LblPergunta1.Name = "LblPergunta1";
-            this.LblPergunta1.Size = new System.Drawing.Size(188, 45);
+            this.LblPergunta1.Size = new System.Drawing.Size(348, 84);
             this.LblPergunta1.TabIndex = 0;
             this.LblPergunta1.Text = "Pergunta 1";
             // 
@@ -60,69 +61,76 @@
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.rbtnCerta);
-            this.groupBox1.Font = new System.Drawing.Font("Comic Sans MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(53, 99);
+            this.groupBox1.Font = new System.Drawing.Font("Comic Sans MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(2, 82);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(619, 321);
+            this.groupBox1.Size = new System.Drawing.Size(1269, 513);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Quantos dias duraram o diluvio?";
+            this.groupBox1.Text = "O que é a Arca de Noé?";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(6, 248);
+            this.radioButton4.Font = new System.Drawing.Font("Comic Sans MS", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.Location = new System.Drawing.Point(0, 355);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(202, 27);
+            this.radioButton4.Size = new System.Drawing.Size(301, 64);
             this.radioButton4.TabIndex = 4;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "d) 70 dias e 70 noites";
+            this.radioButton4.Text = "d) Um carro";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(6, 188);
+            this.radioButton3.Font = new System.Drawing.Font("Comic Sans MS", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(0, 272);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(181, 27);
+            this.radioButton3.Size = new System.Drawing.Size(291, 64);
             this.radioButton3.TabIndex = 3;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "c) 7 dias e 7 noites";
+            this.radioButton3.Text = "c) Um avião";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(6, 131);
+            this.radioButton2.Font = new System.Drawing.Font("Comic Sans MS", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(0, 189);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(203, 27);
+            this.radioButton2.Size = new System.Drawing.Size(389, 64);
             this.radioButton2.TabIndex = 2;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "b) 20 dias e 20 noites";
+            this.radioButton2.Text = "b) Uma bicicleta";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // rbtnCerta
             // 
             this.rbtnCerta.AutoSize = true;
-            this.rbtnCerta.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnCerta.Location = new System.Drawing.Point(6, 72);
+            this.rbtnCerta.Font = new System.Drawing.Font("Comic Sans MS", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnCerta.Location = new System.Drawing.Point(0, 106);
+            this.rbtnCerta.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rbtnCerta.Name = "rbtnCerta";
-            this.rbtnCerta.Size = new System.Drawing.Size(202, 27);
+            this.rbtnCerta.Size = new System.Drawing.Size(305, 64);
             this.rbtnCerta.TabIndex = 1;
             this.rbtnCerta.TabStop = true;
-            this.rbtnCerta.Text = "a) 40 dias e 40 noites";
+            this.rbtnCerta.Text = "a) Um barco";
             this.rbtnCerta.UseVisualStyleBackColor = true;
             this.rbtnCerta.CheckedChanged += new System.EventHandler(this.rbtnCerta_CheckedChanged);
             // 
             // btnProx
             // 
             this.btnProx.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnProx.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnProx.BackColor = System.Drawing.Color.White;
             this.btnProx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProx.Location = new System.Drawing.Point(570, 399);
+            this.btnProx.Location = new System.Drawing.Point(1112, 601);
             this.btnProx.Name = "btnProx";
             this.btnProx.Size = new System.Drawing.Size(138, 69);
             this.btnProx.TabIndex = 0;
@@ -132,11 +140,12 @@
             // 
             // button2
             // 
+            this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(12, 21);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 47);
+            this.button2.Size = new System.Drawing.Size(112, 58);
             this.button2.TabIndex = 3;
             this.button2.Text = "Inicio";
             this.button2.UseVisualStyleBackColor = false;
@@ -144,20 +153,22 @@
             // 
             // FrmP1Noe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(720, 480);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnProx);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.LblPergunta1);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "FrmP1Noe";
-            this.Text = "FrmP1Noe";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ARCA DE NOÉ";
             this.Load += new System.EventHandler(this.FrmP1Noe_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -16,5 +16,41 @@ namespace APP_Cataquese
         {
             InitializeComponent();
         }
+
+        private void FrmP9Pecado_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnProx_Click(object sender, EventArgs e)
+        {
+            {
+                if (rbtnCerta.Checked == true)
+                {
+                    MessageBox.Show("Resposta correta", "Quiz");
+                    VariaveisGlobais.Acertos++;
+                    FrmP10Pecado p10pecado = new FrmP10Pecado();
+                    p10pecado.ShowDialog();
+                    this.Dispose();
+                }
+                else if (radioButton2.Checked || radioButton3.Checked || radioButton4.Checked)
+                {
+                    MessageBox.Show("Resposta incorreta, correta era a alternativa D", "Quiz");
+                    VariaveisGlobais.Erros++;
+                    FrmP10Pecado p10pecado = new FrmP10Pecado();
+                    p10pecado.ShowDialog();
+                    this.Dispose();
+                }
+                else
+                {
+                    MessageBox.Show("Escolha uma alternativa");
+                }
+            }
+        }
     }
 }

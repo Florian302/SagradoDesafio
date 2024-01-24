@@ -50,5 +50,15 @@ namespace APP_Cataquese
         {
 
         }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtnCerta_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

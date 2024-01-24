@@ -32,6 +32,7 @@ namespace APP_Cataquese
                 FrmP2Noe p2noe = new FrmP2Noe();
                 p2noe.ShowDialog();
                 this.Dispose();
+
             }
             else if (radioButton2.Checked || radioButton3.Checked || radioButton4.Checked)
             {
@@ -53,6 +54,16 @@ namespace APP_Cataquese
         }
 
         private void FrmP1Noe_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }

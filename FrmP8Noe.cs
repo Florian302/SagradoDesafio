@@ -40,5 +40,10 @@ namespace APP_Cataquese
                 MessageBox.Show("Escolha uma alternativa");
             }
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

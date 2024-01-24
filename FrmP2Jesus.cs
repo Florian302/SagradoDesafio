@@ -24,7 +24,33 @@ namespace APP_Cataquese
 
         private void btnProx_Click(object sender, EventArgs e)
         {
+            {
+                if (rbtnCerta.Checked == true)
+                {
+                    MessageBox.Show("Resposta correta", "Quiz");
+                    VariaveisGlobais.Acertos++;
+                    FrmP3Jesus p3jesus = new FrmP3Jesus();
+                    p3jesus.ShowDialog();
+                    this.Dispose();
+                }
+                else if (radioButton2.Checked || radioButton3.Checked || radioButton4.Checked)
+                {
+                    MessageBox.Show("Resposta incorreta, correta era a alternativa C", "Quiz");
+                    VariaveisGlobais.Erros++;
+                    FrmP3Jesus p3jesus = new FrmP3Jesus();
+                    p3jesus.ShowDialog();
+                    this.Dispose();
+                }
+                else
+                {
+                    MessageBox.Show("Escolha uma alternativa");
+                }
+            }
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

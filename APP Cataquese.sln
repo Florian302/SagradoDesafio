@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP Cataquese", "APP Cataquese.csproj", "{4BEB4DB3-B3A3-4D9C-8883-3CC635629019}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SagradoDesafioSetup", "..\..\..\..\..\..\..\Instalador\SagradoDesafioSetup\SagradoDesafioSetup.vdproj", "{3E7E0BE5-3FA0-49C0-999E-7B3DB6E15451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{4BEB4DB3-B3A3-4D9C-8883-3CC635629019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BEB4DB3-B3A3-4D9C-8883-3CC635629019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BEB4DB3-B3A3-4D9C-8883-3CC635629019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7E0BE5-3FA0-49C0-999E-7B3DB6E15451}.Debug|Any CPU.ActiveCfg = Debug
+		{3E7E0BE5-3FA0-49C0-999E-7B3DB6E15451}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

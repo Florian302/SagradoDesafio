@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmP8Noe));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -47,61 +48,66 @@
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.rbtnCerta);
-            this.groupBox1.Font = new System.Drawing.Font("Comic Sans MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(30, 83);
+            this.groupBox1.Font = new System.Drawing.Font("Comic Sans MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(2, 82);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(659, 309);
+            this.groupBox1.Size = new System.Drawing.Size(1269, 513);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Qual os nomes dos Filhos de Noé? ";
+            this.groupBox1.Text = "Como os animais sobreviveram na Arca?";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(-1, 251);
+            this.radioButton4.Font = new System.Drawing.Font("Comic Sans MS", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.Location = new System.Drawing.Point(0, 339);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(242, 33);
+            this.radioButton4.Size = new System.Drawing.Size(417, 64);
             this.radioButton4.TabIndex = 3;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "d) Sete, Caim e Abel";
+            this.radioButton4.Text = "d) Comendo carne";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(-1, 197);
+            this.radioButton3.Font = new System.Drawing.Font("Comic Sans MS", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(0, 271);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(236, 33);
+            this.radioButton3.Size = new System.Drawing.Size(405, 64);
             this.radioButton3.TabIndex = 21;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "c) Sete, Cam e Jafé";
+            this.radioButton3.Text = "c) Comendo pizza";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(-1, 141);
+            this.radioButton2.Font = new System.Drawing.Font("Comic Sans MS", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(0, 194);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(229, 33);
+            this.radioButton2.Size = new System.Drawing.Size(419, 64);
             this.radioButton2.TabIndex = 4;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "b) Sem, Cão e Jafé";
+            this.radioButton2.Text = "b) Comendo doces";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // rbtnCerta
             // 
             this.rbtnCerta.AutoSize = true;
-            this.rbtnCerta.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnCerta.Location = new System.Drawing.Point(1, 92);
+            this.rbtnCerta.Font = new System.Drawing.Font("Comic Sans MS", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnCerta.Location = new System.Drawing.Point(0, 126);
+            this.rbtnCerta.Margin = new System.Windows.Forms.Padding(2);
             this.rbtnCerta.Name = "rbtnCerta";
             this.rbtnCerta.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.rbtnCerta.Size = new System.Drawing.Size(233, 33);
+            this.rbtnCerta.Size = new System.Drawing.Size(673, 64);
             this.rbtnCerta.TabIndex = 2;
             this.rbtnCerta.TabStop = true;
-            this.rbtnCerta.Text = "a) Sem, Cam e Jafé";
+            this.rbtnCerta.Text = "a) Comendo frutas e verduras";
             this.rbtnCerta.UseVisualStyleBackColor = true;
             // 
             // LblPergunta1
@@ -109,11 +115,11 @@
             this.LblPergunta1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.LblPergunta1.AutoSize = true;
             this.LblPergunta1.BackColor = System.Drawing.Color.Transparent;
-            this.LblPergunta1.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPergunta1.Font = new System.Drawing.Font("Comic Sans MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPergunta1.ForeColor = System.Drawing.Color.Black;
-            this.LblPergunta1.Location = new System.Drawing.Point(236, 14);
+            this.LblPergunta1.Location = new System.Drawing.Point(441, -5);
             this.LblPergunta1.Name = "LblPergunta1";
-            this.LblPergunta1.Size = new System.Drawing.Size(231, 55);
+            this.LblPergunta1.Size = new System.Drawing.Size(348, 84);
             this.LblPergunta1.TabIndex = 29;
             this.LblPergunta1.Text = "Pergunta 8";
             // 
@@ -121,9 +127,9 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 14);
+            this.button2.Location = new System.Drawing.Point(12, 21);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 47);
+            this.button2.Size = new System.Drawing.Size(112, 58);
             this.button2.TabIndex = 31;
             this.button2.Text = "Inicio";
             this.button2.UseVisualStyleBackColor = false;
@@ -133,7 +139,7 @@
             this.btnProx.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnProx.BackColor = System.Drawing.Color.White;
             this.btnProx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProx.Location = new System.Drawing.Point(570, 398);
+            this.btnProx.Location = new System.Drawing.Point(1112, 601);
             this.btnProx.Name = "btnProx";
             this.btnProx.Size = new System.Drawing.Size(138, 69);
             this.btnProx.TabIndex = 28;
@@ -141,22 +147,24 @@
             this.btnProx.UseVisualStyleBackColor = false;
             this.btnProx.Click += new System.EventHandler(this.btnProx_Click);
             // 
-            // FrmP8
+            // FrmP8Noe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(720, 480);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.LblPergunta1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnProx);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.Name = "FrmP8";
+            this.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "FrmP8Noe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmP8";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Text = "ARCA DE NOÉ";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

@@ -29,7 +29,8 @@ namespace APP_Cataquese
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Material materiais = new Material();
+            materiais.ShowDialog();
         }
 
         private void BtnIniciar_Click(object sender, EventArgs e)
@@ -41,6 +42,12 @@ namespace APP_Cataquese
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnCreditos_Click(object sender, EventArgs e)
+        {
+            Creditos credito = new Creditos();
+            credito.ShowDialog();
         }
     }
 }

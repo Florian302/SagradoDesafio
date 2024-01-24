@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace APP_Cataquese
 {
@@ -31,6 +32,18 @@ namespace APP_Cataquese
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+            Temas tema = new Temas();
+            tema.ShowDialog();
+        }
+
+        private void lblAcertos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblErros_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

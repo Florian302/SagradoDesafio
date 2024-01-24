@@ -19,6 +19,8 @@ namespace APP_Cataquese
 
         private void BtnArca_Click(object sender, EventArgs e)
         {
+            VariaveisGlobais.Acertos = 0;
+            VariaveisGlobais.Erros = 0;
             FrmP1Noe p1noe = new FrmP1Noe();
             p1noe.ShowDialog();
         }
@@ -30,32 +32,47 @@ namespace APP_Cataquese
 
         private void BtnNascimento_Click(object sender, EventArgs e)
         {
+            VariaveisGlobais.Acertos = 0;
+            VariaveisGlobais.Erros = 0;
             FrmP1Jesus p1jesus = new FrmP1Jesus();
             p1jesus.ShowDialog();
         }
 
         private void BtnDaviGolias_Click(object sender, EventArgs e)
         {
+            VariaveisGlobais.Acertos = 0;
+            VariaveisGlobais.Erros = 0;
             FrmP1Davi p1davi = new FrmP1Davi();
             p1davi.ShowDialog();
         }
 
         private void BtnPecado_Click(object sender, EventArgs e)
         {
+            VariaveisGlobais.Acertos = 0;
+            VariaveisGlobais.Erros = 0;
             FrmP1Pecado p1Pecado = new FrmP1Pecado();
             p1Pecado.ShowDialog();
         }
 
         private void BtnAmorDeus_Click(object sender, EventArgs e)
         {
+            VariaveisGlobais.Acertos = 0;
+            VariaveisGlobais.Erros = 0;
             FrmP1Amor p1Amor = new FrmP1Amor();
             p1Amor.ShowDialog();
         }
 
         private void BtnMarVermelho_Click(object sender, EventArgs e)
         {
+            VariaveisGlobais.Acertos = 0;
+            VariaveisGlobais.Erros = 0;
             FrmP1Mar p1Mar = new FrmP1Mar();
             p1Mar.ShowDialog();
+        }
+
+        private void Temas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

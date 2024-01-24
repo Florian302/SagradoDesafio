@@ -55,5 +55,10 @@ namespace APP_Cataquese
                 MessageBox.Show("Escolha uma alternativa");
             }
         }
+
+        private void rbtnCerta_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
